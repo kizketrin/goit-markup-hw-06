@@ -430,7 +430,6 @@ p {
 
 .footer-main {
   display: flex;
-  gap: 120px;
   align-items: baseline;
 }
 
@@ -454,22 +453,30 @@ margin-bottom: 16px;
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-link-wrap {
+  margin-left: 120px;
+}
+
 .input-btn {
   background: var(--background-color);
   border-radius: 4px;
   display: flex;
   justify-content: center;
-align-items: center;
-padding: 8px 24px;
-gap: 16px;
-border: 0;
-color: #FFFFFF;
-font-size: 16px;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 16px;
+  border: 0;
+  color: #FFFFFF;
+  font-size: 16px;
 }
 
 .footer-form-field {
   display: flex;
   gap: 24px;
+}
+
+.footer-input-wrap {
+  margin-left: 30px;
 }
 
 /* MODAL WINDOW */
@@ -608,8 +615,7 @@ font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: transparent;
-}
+  fill: transparent; }
 
 .input-check:checked + .check-text span {
   background-color: var(--background-color);
@@ -624,6 +630,7 @@ font-size: 16px;
 .modal-link {
   color: var(--background-color);
   text-decoration: underline;
+  margin-left: 3px;
 }
 
 
